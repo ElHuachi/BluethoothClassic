@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jetpack.bluetoothconnect"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:7:5-68
+13-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:8:5-74
+14-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:8:22-71
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+16-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:10:5-73
+16-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:10:22-70
+17
+18    <application
+18-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:12:5-30:19
+19        android:allowBackup="true"
+19-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\juanj\.gradle\caches\transforms-3\8b5199686da85f19821afd3ad21f4fa7\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.BluetoothConnect" >
+27-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:18:9-54
+28        <activity
+28-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:19:9-29:20
+29            android:name="com.jetpack.bluetoothconnect.MainActivity"
+29-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:20:13-41
+30            android:exported="true"
+30-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:21:13-36
+31            android:label="@string/app_name"
+31-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:22:13-45
+32            android:theme="@style/Theme.BluetoothConnect.NoActionBar" >
+32-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:23:13-70
+33            <intent-filter>
+33-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:25:17-69
+34-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:27:17-77
+36-->C:\Users\juanj\Downloads\Jetpack-Compose-Bluetooth-Connected-List-main\Jetpack-Compose-Bluetooth-Connected-List-main\app\src\main\AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[androidx.compose.ui:ui-tooling:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\cab4cb8650e985cf17937905e887c589\transformed\jetified-ui-tooling-1.0.0\AndroidManifest.xml:25:9-27:39
+40            android:name="androidx.compose.ui.tooling.PreviewActivity"
+40-->[androidx.compose.ui:ui-tooling:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\cab4cb8650e985cf17937905e887c589\transformed\jetified-ui-tooling-1.0.0\AndroidManifest.xml:26:13-71
+41            android:exported="true" />
+41-->[androidx.compose.ui:ui-tooling:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\cab4cb8650e985cf17937905e887c589\transformed\jetified-ui-tooling-1.0.0\AndroidManifest.xml:27:13-36
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\7867274197c24177819003dffd37cdae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\7867274197c24177819003dffd37cdae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="com.jetpack.bluetoothconnect.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\7867274197c24177819003dffd37cdae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\7867274197c24177819003dffd37cdae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\7867274197c24177819003dffd37cdae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\7867274197c24177819003dffd37cdae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\juanj\.gradle\caches\transforms-3\7867274197c24177819003dffd37cdae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\juanj\.gradle\caches\transforms-3\0c1bd4b5f397d958395af246463931e7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\juanj\.gradle\caches\transforms-3\0c1bd4b5f397d958395af246463931e7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\juanj\.gradle\caches\transforms-3\0c1bd4b5f397d958395af246463931e7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+54-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:32:17-85
+55                android:value="androidx.startup" />
+55-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:33:17-49
+56        </provider>
+57
+58        <receiver
+58-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:36:9-45:20
+59            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+59-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:37:13-76
+60            android:directBootAware="false"
+60-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:38:13-44
+61            android:enabled="true"
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:39:13-35
+62            android:exported="true"
+62-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:40:13-36
+63            android:permission="android.permission.DUMP" >
+63-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:41:13-57
+64            <intent-filter>
+64-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:42:13-44:29
+65                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+65-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:43:17-91
+65-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\juanj\.gradle\caches\transforms-3\64ff4e479b3ca34ad7d236124ba7db7c\transformed\jetified-profileinstaller-1.0.1\AndroidManifest.xml:43:25-88
+66            </intent-filter>
+67        </receiver>
+68    </application>
+69
+70</manifest>
